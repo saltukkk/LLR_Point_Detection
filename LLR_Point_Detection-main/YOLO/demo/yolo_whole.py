@@ -19,6 +19,17 @@ results_file.write("Image Name, Correction Angle (Degrees), "
                     "Ankle Inner (x,y), Ankle Outer (x,y)\n")
 results_file.close()
 
+# Convert all input images to gray scale
+# overwite the gray scale one into the old one
+def transfer_and_grayscale(directory):
+    for picture in os.listdir(directory):
+        image = os.path.join(directory, picture)
+
+        img = Image.open(image).convert('L')
+        img.save(f"{directory}/{picture.split('.')[0]}.png")
+
+transfer_and_grayscale(input_folder)
+
 # Process each image in the folder
 for filename in os.listdir(input_folder):
     if filename.lower().endswith(".png"):  # Process only PNG files
