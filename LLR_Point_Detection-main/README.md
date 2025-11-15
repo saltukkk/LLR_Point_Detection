@@ -59,3 +59,12 @@ Output images of Segmentation model, can be found at ./OUTPUT/SEGMENTATION/test
 Specific points in the Json format can be found at ./OUTPUT/JSON_RESULTS
 
 All segmentation points can be found at ./OUTPUT/JSON_SEGMENTATION
+
+# Theoretical Explaination and Presentation
+
+![Poster_Submit](https://github.com/user-attachments/assets/fda911fd-62b7-4da6-81e3-c296d3dd32e7)
+
+# Clinical Deployment to Server
+
+https://github.com/user-attachments/assets/884d5176-1241-4908-8855-22da08523322
+
