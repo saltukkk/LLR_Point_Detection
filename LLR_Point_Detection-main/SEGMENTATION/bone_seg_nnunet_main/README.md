@@ -4,7 +4,7 @@ This code is based on the nnUNet Neural Network structure.
 A x-ray image is taken as an input and a segmentation mask is produced. 
 The extraction of the segmentation is done using a pre-trained model. Runtime may vary depending on the image.
 Model should be downloaded from drive link and unzipped into the repository folder.
-https://drive.google.com/file/d/1qxn6DxiM09tPoGZhj-ifajVVit9Vo9WZ/view?usp=sharing
+[https://drive.google.com/file/d/1qxn6DxiM09tPoGZhj-ifajVVit9Vo9WZ/view?usp=sharing](https://drive.google.com/file/d/1VD2Ot9Y2-kkBoUVAIwUd-z1ahKN5qsNr/view?usp=drive_link)
 
 ## Setup
 
